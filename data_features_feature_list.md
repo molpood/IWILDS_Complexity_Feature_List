@@ -18,34 +18,13 @@
 |  |1.0430 root(polysyllables 30/sentences) + 3.1291|
 |  |polysyllables are words with 3 syllables or more|
 
-# Sentence Features
-
-| Name   | Description   |
-|:-------|:--------------|
-| adjp   | |
-| advp   | |
-| frag   | |
-| np     | |
-| pp     | |
-| s      | |
-| sbar   | |
-| sbarq  | |
-| sinv   | |
-| sq     | |
-| vp     | |
-| whadvp | |
-| whnp   | |
-| whpp   | |
-
 # Tense Features
 
 | Name   | Description   |
 |:---------------------|:--------------|
 | clauses_per_sentence |The average number of clauses per sentence|
 | fut_imperf           |Clauses with future imperfect in relation to all clauses|
-| fut_perf  |Clauses with future perfect in relation to all clauses|
 | past_imperf          |Clauses with past imperfect in relation to all clauses|
-| past_perf |Clauses with past perfect in relation to all clauses|
 | pres_imperf          |Clauses with present imperfect in relation to all clauses|
 | pres_perf |Clauses with present perfect in relation to all clauses|
 
@@ -66,6 +45,15 @@
 | reading_time |Display Reading Time for a website count_words/180|
 | unique_word_ratio          |Ratio of unique words and all words of a website|
 
+# Sentence Features
+
+| Name   | Description   |
+|:-------|:--------------|
+| np     |Total number of nominal phrases|
+| pp     |Total number of prepositional phrases|
+| s      |Total number of single declarative clauses|
+| vp     |Total number of verbal phrases|
+| whnp   |Total number of wh-nominal phrases|
 
 # Cohesive Complexity Feature
 
