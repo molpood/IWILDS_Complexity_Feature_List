@@ -55,6 +55,12 @@
 | vp     |Total number of verbal phrases|
 | whnp   |Total number of wh-nominal phrases|
 
+
+
+
+The following feature descriptions are crawled from the CTAPWEB tool. For more information see:
+Chen, X.B., Meurers, D. (2016). CTAP: A Web-Based Tool Supporting Automatic Complexity Analysis. In *Proceedings of The Workshop on Computational Linguistics for Linguistic Complexity*. Osaka, Japan. The International Committee on Computational Linguistics.
+
 # Cohesive Complexity Feature
 
 |Name| Description|
